@@ -15,7 +15,7 @@ export const VideoSection: React.FC = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-2xl sm:text-3xl font-bold text-white mt-4 sm:mt-6">
             Наши Видео
           </h2>
           <p className="text-gray-400 text-lg">

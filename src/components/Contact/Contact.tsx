@@ -8,7 +8,7 @@ export const Contact: React.FC = () => {
     <section className="bg-gray-100 py-16" id="contact">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-600 mt-4 sm:mt-6">
             Свяжитесь с нами
           </h2>
           <p className="text-gray-600 text-lg">

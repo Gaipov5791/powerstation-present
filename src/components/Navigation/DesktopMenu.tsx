@@ -9,7 +9,7 @@ interface DesktopMenuProps {
 
 export const DesktopMenu: React.FC<DesktopMenuProps> = ({ items, onItemClick }) => {
   return (
-    <div className="hidden md:block">
+    <div className="hidden 2xl:block xl:block lg:block md:block max-[860px]:hidden">
       <div className="flex space-x-4">
         {items.map((item) => (
           <NavigationLink

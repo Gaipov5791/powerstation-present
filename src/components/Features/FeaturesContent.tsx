@@ -8,10 +8,10 @@ interface FeaturesContentProps {
 
 export const FeaturesContent: React.FC<FeaturesContentProps> = ({ imageSrc }) => {
   return (
-    <div className="mt-8">
+    <div className="mt-8 sm:mt-16">
       <div className="flex flex-col lg:flex-row items-start justify-between gap-8">
         <div className="w-full lg:w-1/2">
-          <div className="mt-8">
+          <div className="mt-2">
             <FeaturesList />
           </div>
         </div>

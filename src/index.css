@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+
 /* Swiper custom styles */
 .swiper {
   width: 100%;

@@ -10,7 +10,7 @@ export const AboutHeading: React.FC = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
     >
-      <h2 className="text-2xl sm:text-3xl font-bold text-gray-600 mt-8 sm:mt-12">
+      <h2 className="text-2xl sm:text-3xl font-bold text-gray-600 mt-4 sm:mt-6">
         О НАС
       </h2>
       <p className="mt-4 font-semibold text-base sm:text-lg text-gray-600">

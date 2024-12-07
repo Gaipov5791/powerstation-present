@@ -14,7 +14,7 @@ export const GalleryMobileSlider: React.FC<GalleryMobileSliderProps> = ({
   onImageClick,
 }) => {
   return (
-    <div className="mt-8 relative">
+    <div className="mt-8 sm:mt-4 relative">
       <Swiper
         modules={[Navigation, Pagination]}
         spaceBetween={16}

@@ -22,7 +22,7 @@ export const AboutAchievements: React.FC = () => {
       <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mt-6">
         Мы гордимся нашими достижениями:
       </h3>
-      <ul className="list-disc list-inside text-base sm:text-lg text-gray-700 space-y-2 mt-4">
+      <ul className="list-disc list-inside text-base sm:text-lg text-gray-600 space-y-2 mt-4">
         {achievements.map((achievement, index) => (
           <motion.li
             key={index}

@@ -17,7 +17,7 @@ export const FeaturesImage: React.FC<FeaturesImageProps> = ({ src, alt }) => {
     >
       <div className="relative overflow-hidden rounded-lg shadow-lg group">
         <img
-          className="w-full h-[240px] sm:h-[320px] lg:h-[400px] object-cover object-center transform transition-transform duration-500 group-hover:scale-105"
+          className="w-full h-[240px] sm:h-[320px] lg:h-[350px] object-cover object-center transform transition-transform duration-500 group-hover:scale-105"
           src={src}
           alt={alt}
           loading="lazy"

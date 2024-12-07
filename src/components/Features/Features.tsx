@@ -6,7 +6,7 @@ import featuresHero from '../../assets/images/hidroelectric-build.jpg';
 
 export const Features: React.FC = () => {
   return (
-    <section className="bg-gray-100 py-16" id="features">
+    <section className="bg-gray-100 py-12 sm:py-16" id="features">
       <FeaturesContainer>
         <FeaturesHeading />
         <FeaturesContent imageSrc={featuresHero} />

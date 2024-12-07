@@ -16,9 +16,9 @@ export const NavigationLink: React.FC<NavigationLinkProps> = ({
   const baseStyles = "relative font-medium transition-all duration-300 ease-in-out";
   
   const mobileStyles = `
-    text-gray-300 hover:bg-white/10 hover:text-white 
-    block px-3 py-2 rounded-md text-base
-    transform hover:-translate-x-1
+    text-white hover:bg-white/10
+    block w-full px-4 py-3 rounded-lg text-lg
+    transform hover:translate-x-2
   `;
   
   const desktopStyles = `

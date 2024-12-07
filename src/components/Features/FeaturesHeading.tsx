@@ -10,7 +10,7 @@ export const FeaturesHeading: React.FC = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
     >
-      <h2 className="text-3xl font-bold text-gray-600">НОВОСТИ</h2>
+      <h2 className="text-2xl sm:text-3xl font-bold text-gray-600 mt-4 sm:mt-6">НОВОСТИ</h2>
       <p className="mt-4 font-semibold text-lg text-gray-600">
         Последние события и достижения нашей компании
       </p>

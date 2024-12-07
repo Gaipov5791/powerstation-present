@@ -11,7 +11,7 @@ import { Contact } from './components/Contact/Contact';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col">
+    <div className="min-h-screen bg-gray-100 flex flex-col overflow-x-hidden">
       <Navigation />
       <div className="flex-grow">
         <Home />
